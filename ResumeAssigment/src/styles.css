@@ -45,13 +45,22 @@ img{
   p {
   font-family: 'Open Sans', sans-serif;
   }
-
+#projects{
+  
+  background-color: #f7f7f7;
+  margin:auto;
+  padding-left: .5rem;
+  border: .15rem solid #1c1350;   
+  margin-bottom: 1.2rem;
+  box-shadow: 7px 5px #1c13505b;
+}
   #parent{
   display:flex;
   background-color: #faebd7;
   margin:auto;
   padding-left: .5rem;
-  border: .15rem solid #452fbe;    
+  border: .15rem solid #452fbe;   
+  box-shadow: 9px 5px #1c135033; 
   }
   #work{
   display:flex;
