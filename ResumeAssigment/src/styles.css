@@ -36,8 +36,6 @@ img{
 }
  /* Navbar container */
  .navbar {
-  overflow: hidden;
- 
   font-family: 'IBM Plex Mono', monospace;
   border: .15rem solid #452fbe;   
   box-shadow: 6px 5px #1c135028; 
@@ -45,7 +43,7 @@ img{
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  display:inline-block;
   font-size: 16px;
   color: #452fbe;
   text-align: center;
@@ -55,8 +53,8 @@ img{
 
 /* The dropdown container */
 .dropdown {
-  float: left;
-  overflow: hidden;
+  display:inline-block;
+ 
   
 }
 
