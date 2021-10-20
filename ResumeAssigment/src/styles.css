@@ -30,6 +30,10 @@
   font-size:1rem;
   }
 
+  p {
+    font-family: 'Open Sans', sans-serif;
+    }
+
 img{
   height:30%;
   max-width: 20%;
@@ -116,10 +120,6 @@ img{
     margin: 5px;
 }
 
-  p {
-  font-family: 'Open Sans', sans-serif;
-  }
-
 #projects{
   background-color: #f7f7f7;
   margin:auto;
@@ -165,4 +165,41 @@ img{
   margin-top:1rem;
   padding: .5rem;
   border: .1rem solid #452fbe;  
+  }
+
+  @media screen and (max-width: 700px) {
+    body {
+      width:85%
+    }
+h1, h2, h3, h4, li, a, ul, p{
+  text-align: center;
+}
+
+h2,h3{
+  font-size:1.3rem ;
+}
+h4{
+  font-size: 1rem;
+}
+p, li{
+  font-size: .9rem;
+  padding: .2rem;
+}
+#edu{
+  padding-right:1rem;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+}
+.item{
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+  
+}
+html body main section#projects section a{
+  text-align: center;
+}
   }
