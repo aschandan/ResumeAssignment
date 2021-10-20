@@ -113,7 +113,7 @@ img{
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
+  
   }
 
 .item {
@@ -123,7 +123,7 @@ img{
 #projects{
   background-color: #f7f7f7;
   margin:auto;
-  padding-left: .5rem;
+  padding-left: 1rem;
   border: .15rem solid #1c1350;   
   margin-bottom: 1.2rem;
   box-shadow: 7px 5px #1c13505b;
@@ -132,11 +132,11 @@ img{
   display:flex;
   background-color: #faebd7;
   margin:auto;
-  padding-left: .5rem;
+  padding-left: 1rem;
   border: .15rem solid #452fbe;   
   box-shadow: 9px 5px #1c135033; 
   }
-  #work{
+#work{
   display:flex;
   flex:1;
   padding-right: 3rem;
@@ -146,7 +146,9 @@ img{
   width:50%
   }
 
-
+  html body main section#projects section a{
+    flex-basis:100%;
+  }
   a{
   color:#624dd3;
   }
@@ -161,7 +163,6 @@ img{
   display: inline-block;
   }
   footer{
- 
   margin-top:1rem;
   padding: .5rem;
   border: .1rem solid #452fbe;  
@@ -201,5 +202,6 @@ p, li{
 }
 html body main section#projects section a{
   text-align: center;
+  padding:.2rem;
 }
   }
