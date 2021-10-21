@@ -136,6 +136,7 @@ img{
   border: .15rem solid #452fbe;   
   box-shadow: 9px 5px #1c135033; 
   }
+
 #work{
   display:flex;
   flex:1;
@@ -146,9 +147,10 @@ img{
   width:50%
   }
 
-  html body main section#projects section a{
+html body main section#projects section a{
     flex-basis:100%;
   }
+
   a{
   color:#624dd3;
   }
@@ -169,8 +171,9 @@ img{
   }
 
   @media screen and (max-width: 700px) {
-    body {
-      width:85%
+
+body {
+ width:85%
     }
 h1, h2, h3, h4, li, a, ul, p{
   text-align: center;
@@ -200,8 +203,30 @@ p, li{
   justify-content: center;
   
 }
+
 html body main section#projects section a{
   text-align: center;
   padding:.2rem;
-}
   }
+}
+
+  
+@media screen and (max-width: 400px) {
+  #edu {
+    flex-basis:100%;
+    flex-wrap: wrap;
+  }
+
+  .container{
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  #work{
+    padding:0;
+  }
+  .break{
+    flex-basis: 100%;
+    width: 0;
+  }
+}
